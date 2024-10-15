@@ -21,7 +21,7 @@
 .gallery-item {
     width: 300px;
 }
-@media screen and (max-width: 871px){
+@media screen and (max-width: 503px){
     .container {
         /* background: red; */
 }
