@@ -1,9 +1,9 @@
 @import url("fonts.css");
 
 html, body {
-    overflow-x: hidden; /* Добавлено */
-    margin: 0; /* Добавлено */
-    padding: 0; /* Добавлено */
+    overflow-x: hidden;
+    margin: 0; 
+    padding: 0;
 }
 
 body {
@@ -11,7 +11,7 @@ body {
     background-position: top right;
     background-repeat: no-repeat;
     background-size: 42.5%;
-    overflow: hidden; /* Добавлено */
+    overflow: hidden;
 }
 
 header {
@@ -20,8 +20,8 @@ header {
     justify-content: center;
     width: 100%;
     box-sizing: border-box;
-    margin: 0; /* Добавлено */
-    padding: 0; /* Добавлено */
+    margin: 0; 
+    padding: 0;
     margin-top: 9px;
 }
 
@@ -79,8 +79,8 @@ header {
     width: 100%;
     box-sizing: border-box;
     padding: 20px;
-    position: relative; /* Изменено с absolute */
-    margin: 0; /* Добавлено */
+    position: relative; 
+    margin: 0; 
 }
 
 .text_hero {
@@ -141,10 +141,10 @@ header {
 .CTA {
     width: 100%;
     box-sizing: border-box;
-    position: relative; /* Изменено с absolute */
+    position: relative; 
     margin-top: 55px;
     margin-left: 50px;
-    padding: 0; /* Добавлено */
+    padding: 0; 
 }
 
 .CTA h1 {
@@ -231,10 +231,10 @@ header {
     align-items: center;
     width: 100%;
     box-sizing: border-box;
-    position: relative; /* Изменено с absolute */
+    position: relative;
     color: #251204;
-    margin: 0; /* Добавлено */
-    padding: 0; /* Добавлено */
+    margin: 0; 
+    padding: 0;
     margin-left: 5px;
 }
 
@@ -571,7 +571,7 @@ header {
 .process_foto{
     display: flex;
     justify-content: center;
-    align-items: flex-start; /* Изменено с center */
+    align-items: flex-start; 
     position: relative;
     top: -663px;
     left: 15px;
@@ -596,7 +596,7 @@ header {
     word-spacing: 1.2px;
     letter-spacing: 0.09px;
     color: #ffffff;
-    font-weight: normal; /* Добавлено */
+    font-weight: normal;
 }
 
 .process_item p {
@@ -892,24 +892,24 @@ header {
     cursor: pointer;
     font-family: "Label";
     font-size: 18px;
-    margin-top: 10px; /* Добавлено */
-    position: relative; /* Добавлено */
-    top: 10px; /* Добавлено */
+    margin-top: 10px; 
+    position: relative;
+    top: 10px; 
 }
 
 .Blog_img .img_1 .details-button {
-    top: -84px; /* Изменено */
-    left: -35px; /* Добавлено */
+    top: -84px; 
+    left: -35px;
 }
 
 .Blog_img .img_2 .details-button {
-    top: -80px; /* Изменено */
-    left: 70px; /* Добавлено */
+    top: -80px;
+    left: 70px;
 }
 
 .Blog_img .img_3 .details-button {
-    top: -82px; /* Изменено */
-    left: 100px; /* Добавлено */
+    top: -82px; 
+    left: 100px;
 }
 
 .Blog_img .details-button:hover {
@@ -923,7 +923,7 @@ header {
     display: grid;
     justify-content: center;
     align-items: center;
-    padding: 20px; /* Добавлено */
+    padding: 20px;
 }
 
 .info_block{
@@ -1210,4 +1210,364 @@ footer{
     color: #000000;
     letter-spacing: 1.5px;
     word-spacing: 0.5px;
+}
+
+@media (max-width: 400px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-size: 100%;
+        overflow-x: hidden;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .logo {
+        left: 0;
+        margin-top: 10px;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+        left: 0;
+        margin-top: 10px;
+    }
+
+    .call-button button {
+        right: 0;
+        margin-top: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .text_hero {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .text_hero h1 {
+        font-size: 28px;
+    }
+
+    .text_hero p {
+        font-size: 16px;
+    }
+
+    .hero_img {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .hero_img img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .CTA h1 {
+        font-size: 24px;
+    }
+
+    .img_CTA_1, .img_CTA_2 {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .img_1 img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .img_1 button {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .counters_logo h1 {
+        font-size: 24px;
+    }
+
+    .counters {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .icons_1, .icons_2, .icons_3 {
+        margin-left: 0;
+    }
+
+    .icons_1 img, .icons_2 img, .icons_3 img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .icons_1 h2, .icons_2 h2, .icons_3 h2 {
+        margin-top: 10px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .icons_1 p, .icons_2 p, .icons_3 p {
+        margin-top: 10px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .counters_info {
+        margin-top: 20px;
+    }
+
+    .stats {
+        width: 100%;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .stat_1, .stat_2, .stat_3 {
+        margin: 0;
+    }
+
+    .number {
+        font-size: 24px;
+    }
+
+    .label {
+        font-size: 14px;
+    }
+
+    .CTA_pgoto {
+        height: auto;
+        padding: 20px;
+    }
+
+    .CTA_pgoto h1 {
+        font-size: 24px;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .CTA_pgoto_img img {
+        width: 100%;
+        max-width: 300px;
+        top: 0;
+        right: 0;
+    }
+
+    .order-form {
+        left: 0;
+        bottom: 0;
+    }
+
+    .order-form input {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .upload__label {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .order-form button {
+        right: 0;
+        top: 10px;
+    }
+
+    .process h1 {
+        font-size: 24px;
+    }
+
+    .process_foto {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .process_item img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .process_item h2 {
+        margin-top: 10px;
+        margin-right: 0;
+    }
+
+    .process_item p {
+        margin-top: 10px;
+        margin-right: 0;
+    }
+
+    .FeetBack h1 {
+        font-size: 24px;
+    }
+
+    .FeetBack_img {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .FeetBack_img img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .FeetBack_img .text {
+        top: 10px;
+    }
+
+    .FeetBack_img h3 {
+        margin-left: 0;
+    }
+
+    .FeetBack_img p {
+        margin-left: 0;
+    }
+
+    .CTA_choose_1 {
+        height: auto;
+        padding: 20px;
+    }
+
+    .CTA_choose_1 h1 {
+        font-size: 24px;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+
+    .CTA_choose_1 select {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .order-form_1 {
+        left: 0;
+        top: 10px;
+    }
+
+    .order-form_1 input {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .upload__label_1 {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .order-form_1 button {
+        right: 0;
+        top: 10px;
+    }
+
+    .CTA_choose_img img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .Blog h1 {
+        font-size: 24px;
+    }
+
+    .Blog_img {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Blog_img img {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .Blog_img .text {
+        bottom: 10px;
+    }
+
+    .Blog_img .details-button {
+        top: 10px;
+    }
+
+    .info {
+        height: auto;
+        padding: 20px;
+    }
+
+    .info_block {
+        left: 0;
+        top: 0;
+    }
+
+    .info_block h1 {
+        font-size: 24px;
+    }
+
+    .info_block p {
+        font-size: 16px;
+    }
+
+    .info_map {
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 300px;
+    }
+
+    .zakaz_text {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .zakaz h1 {
+        font-size: 24px;
+        left: 0;
+    }
+
+    .zakaz_text p {
+        font-size: 16px;
+        left: 0;
+    }
+
+    .zakaz_text button {
+        left: 0;
+    }
+
+    footer {
+        height: auto;
+        padding: 20px;
+    }
+
+    .footer_logo {
+        left: 0;
+    }
+
+    .footer_logo img {
+        left: 0;
+    }
+
+    .footer_logo p {
+        left: 0;
+    }
+
+    .footer_info, .footer_support, .footer_social {
+        left: 0;
+    }
+
+    .footer_social img {
+        left: 0;
+    }
+
+    .copyright h1 {
+        font-size: 24px;
+    }
 }
